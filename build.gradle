@@ -51,15 +51,11 @@ dependencies {
     testImplementation "com.codeborne:selenide:${selenideVersion}"
     testImplementation "io.qameta.allure:allure-selenide:${allureVersion}"
     testImplementation "ch.qos.logback:logback-classic:1.2.3"
-
 }
-
-
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
-
 
 test {
     systemProperties = System.properties
