@@ -10,7 +10,7 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static utils.FileReader.readStringFromFile;
 
-public class DemoWebShopTests extends TestBase {
+public class DemoWebShopTests {
 
     @Test
     @DisplayName("Successful added to wish list")
